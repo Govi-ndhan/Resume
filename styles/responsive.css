@@ -1,0 +1,33 @@
+@media (max-width: 760px) {
+    body{
+        padding: 1rex;
+        background-size: contain;
+    } 
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    a img{
+        align-items: center;
+        margin-left: 10%;
+    }
+    .page, .page.active{
+        display: block !important;
+        margin: 1rex;
+    }
+    li{
+        padding: 3px;
+        line-height: 25px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    header p{
+        font-size: 30px;
+    }
+    nav{
+        display: none;
+    }
+    .container{
+        margin: 2rex;
+    }
+}

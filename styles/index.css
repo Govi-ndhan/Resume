@@ -1,0 +1,70 @@
+body{
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background: url('../srcimgs/falling-stars.webp');
+    background-size: cover;
+    user-select: none;
+    color: #ffffff;
+}
+h1, header p{
+    justify-self: center;
+    font-size: 3rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.page.active{
+    display: block;
+}
+.page{
+    display: none;
+}
+.page, .page.active{
+    margin: 2rem;
+}
+image{
+    padding: 1rem;
+    border: 1px solid cyan;
+}
+a{
+    padding: 2rex;
+    width: 100%;
+    margin-left: 10%;
+    color: #fff;
+    text-decoration: none;
+}
+li a{
+    margin: auto;
+}
+p, h2, h3{
+    margin: 15px 0;
+}
+h1{
+    margin: 1rem 0;
+}
+a img{
+    border: 0.5rex solid cyan;
+    padding: 5px;
+    border-radius: 50%;
+    justify-self: center;
+}
+nav{
+    display: inline-flex;
+    word-wrap: wrap;
+}
+nav a{
+    margin: auto;
+}
+.container{
+    margin: 2rem;
+}
+pre{
+    text-wrap: wrap;
+    font: inherit;
+}
+#bi{
+    justify-self: center;
+}
