@@ -7,7 +7,8 @@
         grid-template-columns: repeat(1, 1fr);
     }
     a img{
-        align-items: center;
+        position: absolute;
+        left: 25%;
         margin-left: 10%;
     }
     .page, .page.active{
