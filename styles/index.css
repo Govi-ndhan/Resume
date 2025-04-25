@@ -37,7 +37,8 @@ a{
     text-decoration: none;
 }
 li a{
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 p, h2, h3{
     margin: 15px 0;
